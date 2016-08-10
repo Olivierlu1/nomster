@@ -11,7 +11,7 @@ gem 'devise', '>= 3.2.4'
 gem 'geocoder','1.3.4'
 gem 'simple_form'
 gem 'figaro', '>= 1.0.0'
-
+gem 'carrierwave'
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
