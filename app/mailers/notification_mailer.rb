@@ -2,6 +2,6 @@ class NotificationMailer < ApplicationMailer
   default from: "no-reply@skynet.com"
 
   def comment_added
-    mail(to: "180256@hkis.edu.hk", subject: "sup bitch")
+    mail(to: "olivier.gabison@outlook.com", subject: "A comment has been added on your post.")
   end
 end
