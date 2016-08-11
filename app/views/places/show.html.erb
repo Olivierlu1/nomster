@@ -5,10 +5,12 @@
   <p><%= @place.description %></p>
 
   <% @place.photos.each do |p| %>
-   <%= image_tag p.picture %>
+   <%= image_tag p.picture, class: 'img-responsive' %>
    <%= p.caption %>
   <% end %>
 
+  <br />
+  <br />
   <br />
 
 <% if @place.latitude.present? && @place.longitude.present? %>
